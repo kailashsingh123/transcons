@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Header } from './components/Header/Header'
+
 import { Footer } from './components/Footer/Footer'
 import { About } from './components/About'
 
@@ -12,7 +12,7 @@ function App() {
   return (
     <>
     <div>
-     <Header/>
+     {/* <Header/> */}
      <About/>
         {/* <h1 className='bg-orange-500 text-white'>Rishi Markandey Mahadev Jee</h1> */}
      <Footer/>
